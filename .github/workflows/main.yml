@@ -28,7 +28,7 @@ jobs:
       - name: embedmd check
         run: |
           count=$(git diff | wc -l)
-          if [ "$count" -eq "0" ]
+          if [ "$count" -ne "0" ]
           then
             echo "embedmd check failed\nThese files need to run embedmd once:"
             git diff
