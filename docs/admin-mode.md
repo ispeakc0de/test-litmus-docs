@@ -22,6 +22,10 @@ kubectl apply -f https://hub.litmuschaos.io/api/chaos/1.8.1?file=charts/generic/
 
 #### Prepare RBAC Manifest
 
+[embedmd]:# (https://litmuschaos.github.io/litmus/litmus-admin-rbac.yaml)
+
+[embedmd]:# (https://litmuschaos.github.io/litmus/litmus-admin-rbac.yaml)
+
 Here is an RBAC definition, which in essence is a superset of individual experiments RBAC that has the permissions to run all chaos experiments across different namespaces.
 
 [embedmd]:# (https://litmuschaos.github.io/litmus/litmus-admin-rbac.yaml)
